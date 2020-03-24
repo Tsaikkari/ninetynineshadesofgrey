@@ -1,125 +1,12 @@
-body {
-    position: relative;
-    background: #000000;
+h1 {
     font-family: 'Roboto', sans-serif;
   }
-  
-  .animated-text {
-    color: #fff;
-    position: absolute;
-    top: 100%;
-    left: 31%;
-    transform: translate(-50% -50%);
-    height: 60px;
-    overflow: hidden;
-  }
-  
-  .line {
-    text-align: center;
-    font-size: 40px;
-    line-height: 60px;
-  }
-  
-  .line:first-child {
-    animation: anim 15s 1; 
-  }
-  
-  @keyframes anim {
-    0% {
-      margin-top: 0;
-    }
-    16% {
-      margin-top: -60px;
-    }
-    33% {
-      margin-top: -120px;
-    }
-    50% {
-      margin-top: -180px;
-    }
-    66% {
-      margin-top: -240px;
-    }
-    82% {
-      margin-top: -300px;
-    }
-    100% {
-      margin-top: 360;
-    }
-  }
-  
-  h1 {
-    color: red;
-    text-align: center;
-  }   
-  
-  .tears {
-    background: #000000;
-    position: relative;
-    padding-right: 1.5%;
-    padding-top: 10%;
-    text-align: center;
-  }
-  
+
   .container {
     text-align: center;
   }
-  
-  .container-content {
-    padding-top: 2%;
-    color: red;
-    text-align: center;
-  }
-  /*
-  .container {
-    animation: shake-animation 4.72s ease 3;
-      transform-origin: 50% 50%;
-  }
-    @keyframes shake-animation {
-      0% { transform:translate(0,0) }
-      1.78571% { transform:translate(5px,0) }
-      3.57143% { transform:translate(0,0) }
-      5.35714% { transform:translate(5px,0) }
-      7.14286% { transform:translate(0,0) }
-      8.92857% { transform:translate(5px,0) }
-      10.71429% { transform:translate(0,0) }
-      100% { transform:translate(0,0) }
-  }*/
-  
-    /*tear icon */  
-  #tear {
-    font-size: 1.3em;
-    color: #ffffff;
-    position: absolute;
-    text-align: center;
-    padding-top: 0;
-  } 
-   
-  #heart {
-    position: relative;
-    width: 240px;
-    height: 216px;
-    }
-    #heart:before,
-    #heart:after {
-      position: absolute;
-      content: "";
-      left: 120px;
-      top: 0;
-      width: 120px;
-      height: 192px;
-      background-color: #000000;
-      animation: myanimation 10s 1;
-      border-radius: 100px 100px 0 0;
-      transform: rotate(-45deg);
-      transform-origin: 0 100%;
-    }
-    #heart:after {
-      left: 0;
-      transform: rotate(45deg);
-      transform-origin: 100% 100%;
-  }
-      
+
+  /*    
   @keyframes myanimation {
       0%{background-color: #000000}
       1%{background-color: #000000}
@@ -225,4 +112,4 @@ body {
       97%{background-color: #f7f7f7}
       98%{background-color: #fafafa}
       99%{background-color: #fcfcfc}
-  }
+  }*/
