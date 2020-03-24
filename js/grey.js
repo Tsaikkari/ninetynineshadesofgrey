@@ -1,10 +1,12 @@
 var greys = [
     {
         backgroundColor: "#030303",
-        area: ""
+        name: "",
+        href: "https://wikipedia.com"
     },
     {
         backgroundColor: "",
-        area: ""
+        name: "",
+        href: "https://wikipedia.com"
     }
 ];
