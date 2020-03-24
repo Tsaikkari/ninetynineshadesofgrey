@@ -6,7 +6,6 @@ h2 {
     font-family: 'Roboto', sans-serif;
     padding-top: 1rem;
    /* color: #323232;*/
-   color: white;
 }
 
 h3 {
@@ -88,21 +87,31 @@ section {
 }
 
 .black.moved {
-  animation: mymove 1s ease;
+  animation: mymove_1 1s ease;
 }
 
 .white.animated {
   animation: myanimation 1s ease;
 }
 
-/*black div moves to the right*/
-@keyframes mymove {
+/*black div moves to the white div*/
+@keyframes mymove_1 {
   from {
      left: 20%;
   }
  
   to {
      left: 53.7%;
+  }
+}
+
+@keyframes mymove_2 {
+  from {
+     right: 20%;
+  }
+ 
+  to {
+     right: 53.7%;
   }
 }
 
