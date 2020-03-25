@@ -22,7 +22,6 @@ $(document).ready(function() {
 
   // grey buttons 
   for (let i = 0; i < greys.length; ++i) {
-    greys[i][2] = $('#greyclip').css({'background-color': greys[i].backgroundColor, 'diplay': 'block'});
     $("#grey").append("\
     <div class='col-sm-4 col-md-1 ml-auto mr-auto'>\
       <button class='btn btn-secondary btn-lg' 'id=greyclip'>\
@@ -32,6 +31,7 @@ $(document).ready(function() {
       </button>\
     </div>\
   ");
+  $('#greyclip').css({'background-color': greys[i][2], 'diplay': 'block'});
   };
 
   // show names on the buttons
