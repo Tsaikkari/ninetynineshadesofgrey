@@ -96,8 +96,6 @@ section {
   display: none;
 }
 
-
-
 /*black div moves to the white div*/
 @keyframes mymove_1 {
   from {
@@ -106,16 +104,6 @@ section {
  
   to {
      left: 53.7%;
-  }
-}
-
-@keyframes mymove_2 {
-  from {
-     right: 20%;
-  }
- 
-  to {
-     right: 53.7%;
   }
 }
 
