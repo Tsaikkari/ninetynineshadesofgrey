@@ -34,10 +34,6 @@ p {
   padding-right: 29%;
 }
 
-.grid-btn {
-  display: none;
-}
-
 #left {
   color: white;
   letter-spacing: 1.2em;
@@ -93,6 +89,14 @@ section {
 .white.animated {
   animation: myanimation 1s ease;
 }
+
+/*names on the grey buttons*/
+.info {
+  position: absolute;
+  display: none;
+}
+
+
 
 /*black div moves to the white div*/
 @keyframes mymove_1 {

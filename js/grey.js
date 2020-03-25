@@ -1,12 +1,24 @@
-var greys = [
+let greys = [
     {
-        backgroundColor: "#030303",
+        href: "/link/to/page1",
         name: "",
-        href: "https://wikipedia.com"
+        backgroundColor: "#030303"
     },
     {
-        backgroundColor: "",
+        href: "/link/to/page2",
         name: "",
-        href: "https://wikipedia.com"
+        backgroundColor: "#000"
+    },
+    {
+        href: "/link/to/page3",
+        name: "",
+        backgroundColor: ""
+    },
+    {
+        href: "/link/to/page4",
+        name: "",
+        backgroundColor: ""
     }
 ];
+
+
