@@ -24,9 +24,9 @@ $(document).ready(function() {
   for (let i = 0; i < greys.length; ++i) {
     $("#grey").append("\
     <div class='col-sm-4 col-md-1 ml-auto mr-auto'>\
-      <a href='#' id='greybutton'>\
-        <span class='info'><p class='person'></p>" + greys[i].name + "</span>\
-      name</a>\
+      <a href='" + greys[i].href + "' id='greybutton'>\
+        " + greys[i].name + "\
+      </a>\
     </div>\
   ");
     $('#greybutton').css('background-color', greys[i][2]);

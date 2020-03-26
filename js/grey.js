@@ -1,7 +1,7 @@
 let greys = [
     {
-        href: "/link/to/page1",
-        name: "Wolfgang Amadeus Mozart",
+        href: "link/to/page",
+        name: "Mozart",
         backgroundColor: "030303"
     },
     {
@@ -241,7 +241,7 @@ let greys = [
     },
     {
         href: "/link/to/page1",
-        name: "Wolfgang Amadeus Mozart",
+        name: "",
         backgroundColor: "030303"
     },
     {
@@ -361,7 +361,7 @@ let greys = [
     },
     {
         href: "/link/to/page1",
-        name: "Wolfgang Amadeus Mozart",
+        name: "",
         backgroundColor: "030303"
     },
     {
@@ -481,7 +481,7 @@ let greys = [
     },
     {
         href: "/link/to/page1",
-        name: "Wolfgang Amadeus Mozart",
+        name: "",
         backgroundColor: "030303"
     },
     {
