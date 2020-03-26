@@ -13,8 +13,8 @@ $(document).ready(function() {
 
   // greys-grid-screen
   function nextScreen() {
-    $('h2').text("Get to know about colorful people");
-    $('.greys-grid-screen').css('display', 'block').css('background-color', 'grey'); // placeholder
+    $('h2').text("Get to know about colorful lives");
+    $('.greys-grid-screen').css('display', 'block');
     $('.two-divs-screen').css('display', 'none');
     $('#move-div').css('display', 'none');
     $('#greyclip').css('display', 'block');
@@ -24,14 +24,12 @@ $(document).ready(function() {
   for (let i = 0; i < greys.length; ++i) {
     $("#grey").append("\
     <div class='col-sm-4 col-md-1 ml-auto mr-auto'>\
-      <button class='btn btn-secondary btn-lg' 'id=greyclip'>\
-        <a href='" + greys[i].href + "' link rel='pages'>\
-          <span class='info'><p class='person'></p>" + greys[i].name + "</span>\
-        </a>\
-      </button>\
+      <a href='#' id='greybutton'>\
+        <span class='info'><p class='person'></p>" + greys[i].name + "</span>\
+      name</a>\
     </div>\
   ");
-  $('#greyclip').css({'background-color': greys[i][2], 'diplay': 'block'});
+    $('#greybutton').css('background-color', greys[i][2]);
   };
 
   // show names on the buttons
