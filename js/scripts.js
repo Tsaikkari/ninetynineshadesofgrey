@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $('.greys-grid-screen').css('display', 'none');
+  $('h2').css('display', 'none');
   // user clicks button and the divs move
   $('#move-div').on('click', function() {
     $('.black, .white').addClass('animated').addClass('moved');
@@ -13,7 +14,7 @@ $(document).ready(function() {
 
   // greys-grid-screen
   function nextScreen() {
-    $('h2').text("Get to know about colorful lives");
+    $('h2').css('display', 'block');
     $('.greys-grid-screen').css('display', 'block');
     $('.two-divs-screen').css('display', 'none');
     $('#move-div').css('display', 'none');
