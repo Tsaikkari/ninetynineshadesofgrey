@@ -421,7 +421,7 @@ let greys = [
     },
     {
         href: "/link/to/page8",
-        name: "",
+        name: "Ada",
         backgroundColor: ""
     },
     {
@@ -481,17 +481,17 @@ let greys = [
     },
     {
         href: "/link/to/page1",
-        name: "",
+        name: "Bach",
         backgroundColor: "030303"
     },
     {
         href: "/link/to/page2",
-        name: "",
+        name: "Beethoven",
         backgroundColor: "000"
     },
     {
         href: "/link/to/page3",
-        name: "",
+        name: "Brahms",
         backgroundColor: ""
     }
 ];

@@ -20,28 +20,15 @@ $(document).ready(function() {
     $('#greyclip').css('display', 'block');
   }
 
-  // grey buttons 
+  // grey buttons TODO: Fix this
   for (let i = 0; i < greys.length; ++i) {
-    $("#grey").append("\
-    <div class='col-sm-4 col-md-1 ml-auto mr-auto'>\
-      <a href='" + greys[i].href + "' id='greybutton'>\
-        " + greys[i].name + "\
-      </a>\
-    </div>\
-  ");
-    $('#greybutton').css('background-color', greys[i][2]);
-  };
+    $("#grey").append(`<div class='col-sm-4 col-md-1 ml-auto mr-auto'><a href='${greys[i].href}' class='greybutton'>${greys[i].name}</a></div>`);
+    let greyButtons = $('#grey a');
+    $(greyButtons[i]).css("background-color", greys[i].backgroundColor);
+  }; 
 
-  // show names on the buttons
-  $("#greyclip").mouseenter(function() {
-    $(".info", this).show();
-  }).mouseleave(function() {
-    $(".info", this).hide();
-  });
   return false;
 });
-
-
 
 
 

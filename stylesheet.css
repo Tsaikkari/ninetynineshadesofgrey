@@ -95,7 +95,7 @@ section {
 }
 
 /*buttons*/
-#greybutton {
+.greybutton {
 	box-shadow: 3px 4px 0px 0px #899599;
 	background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
 	background-color:#ededed;
@@ -105,28 +105,26 @@ section {
 	cursor: pointer;
 	color: #000;
 	font-family: Arial;
-	font-size: 17px;
+	font-size: 15px;
   padding: 7px 7px;
   margin-bottom: 7px;
 	text-decoration: none;
 	text-shadow:0px 1px 0px #e1e2ed;
 }
 
-#greybutton:hover {
+.greybutton:hover {
 	background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
 	background-color: #bab1ba;
 }
 
-#greybutton:active {
+.greybutton:active {
 	position: relative;
 	top: 1px;
 }
 
-/*names on the grey buttons*/
-.info {
-  position: absolute;
-  display: none;
-}
+/* a .greybutton {
+      background-color: var(--main-bg-color, #bebebe);
+    }*/
 
 /*black div moves to the white div*/
 @keyframes mymove_1 {
