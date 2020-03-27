@@ -24,7 +24,7 @@ $(document).ready(function() {
   for (let i = 0; i < greys.length; ++i) {
     $("#grey").append(`<div class='col-sm-4 col-md-1 ml-auto mr-auto'><a href='${greys[i].href}' class='greybutton'>${greys[i].name}</a></div>`);
     let greyButtons = $('#grey a');
-    $(greyButtons[i]).css("background-color", greys[i].backgroundColor);
+    $(greyButtons[i]).css("--main-bg-color", greys[i].backgroundColor);
   }; 
 
   return false;

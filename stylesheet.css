@@ -98,7 +98,7 @@ section {
 .greybutton {
 	box-shadow: 3px 4px 0px 0px #899599;
 	background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
-	background-color:#ededed;
+  background-color: var(--main-bg-color);
 	border-radius: 5px;
 	border: 1px solid #d6bcd6;
 	display: inline-block;
@@ -122,10 +122,6 @@ section {
 	top: 1px;
 }
 
-/* a .greybutton {
-      background-color: var(--main-bg-color, #bebebe);
-    }*/
-
 /*black div moves to the white div*/
 @keyframes mymove_1 {
   from {
@@ -145,8 +141,8 @@ section {
   4%{background-color: #f4f4f4}
   5%{background-color: #f3f3f3}
   6%{background-color: #f0f0f0}
-  7%{background-color: #e3e3e3}
-  8%{background-color: #e8e8e8}  
+  7%{background-color: #e8e8e8}
+  8%{background-color: #e3e3e3}  
   9%{background-color: #e0e0e0}
   10%{background-color: #dedede}
   11%{background-color: #dbdbdb}
@@ -157,89 +153,86 @@ section {
   16%{background-color: #cfcfcf}
   17%{background-color: #c9c9c9}
   18%{background-color: #c7c7c7}
-  19%{background-color: #c4c4c4}
-  20%{background-color: #c2c2c2}
-  21%{background-color: #bfbfbf}
-  22%{background-color: #bdbdbd}
-  23%{background-color: #bababa}
-  24%{background-color: #b8b8b8}
-  25%{background-color: #b5b5b5}
-  26%{background-color: #ababab}
-  27%{background-color: #a8a8a8}
-  28%{background-color: #a6a6a6}
-  29%{background-color: #a3a3a3}
-  30%{background-color: #a1a1a1}
-  31%{background-color: #9e9e9e}
-  32%{background-color: #9c9c9c}
-  33%{background-color: #999999}
-  34%{background-color: #969696}
-  35%{background-color: #949494}
-  36%{background-color: #919191}
-  37%{background-color: #8f8f8f}
-  38%{background-color: #8c8c8c}
-  39%{background-color: #8a8a8a}
-  40%{background-color: #878787}
-  41%{background-color: #858585}
-  42%{background-color: #828282}
-  43%{background-color: #7f7f7f}
-  44%{background-color: #7d7d7d}
-  45%{background-color: #7a7a7a}
-  46%{background-color: #757575}
-  47%{background-color: #797979}
-  48%{background-color: #737373}
-  49%{background-color: #707070}
-  50%{background-color: #6e6e6e}
-  51%{background-color: #6d6d6d}
-  52%{background-color: #6b6b6b}
-  53%{background-color: #696969}
-  54%{background-color: #686868}
-  55%{background-color: #676767}
-  56%{background-color: #666666}
-  57%{background-color: #656565}
-  58%{background-color: #646464}
-  59%{background-color: #636363}
-  60%{background-color: #626262}
-  61%{background-color: #616161}
-  62%{background-color: #606060}
-  63%{background-color: #5e5e5e}
-  64%{background-color: #5d5d5d}
-  65%{background-color: #5c5c5c}
-  66%{background-color: #5b5b5b}
-  67%{background-color: #5a5a5a}
-  65%{background-color: #595959}
-  66%{background-color: #575757}
-  67%{background-color: #545454}
-  68%{background-color: #535353}
-  69%{background-color: #525252}
-  70%{background-color: #505050}
-  71%{background-color: #4f4f4f}
-  72%{background-color: #4e4e4e}
-  73%{background-color: #4d4d4d}
-  74%{background-color: #4b4b4b}
-  75%{background-color: #4a4a4a}
-  76%{background-color: #474747}
-  77%{background-color: #464646}
-  78%{background-color: #454545}
-  79%{background-color: #444444}
-  80%{background-color: #434343}
-  81%{background-color: #424242}
-  82%{background-color: #414141}
-  83%{background-color: #404040}
-  84%{background-color: #3f3f3f}
-  85%{background-color: #3e3e3e}
-  86%{background-color: #3d3d3d}
-  87%{background-color: #3b3b3b}
-  88%{background-color: #383838}
-  89%{background-color: #363636}
-  90%{background-color: #333333}
-  91%{background-color: #303030}
-  92%{background-color: #2e2e2e}
-  93%{background-color: #2b2b2b}
-  94%{background-color: #292929}
-  95%{background-color: #262626}
-  96%{background-color: #242424}
-  97%{background-color: #212121}
-  98%{background-color: #1f1f1f}
-  99%{background-color: #1c1c1c}
-  100%{background-color: #1c1c1c}
+  19%{background-color: #c6c6c6}
+  20%{background-color: #c4c4c4}
+  21%{background-color: #c2c2c2}
+  22%{background-color: #c0c0c0}
+  23%{background-color: #bfbfbf}
+  24%{background-color: #bdbdbd}
+  25%{background-color: #bbbbbb}
+  26%{background-color: #bababa}
+  27%{background-color: #b8b8b8}
+  28%{background-color: #b5b5b5}
+  29%{background-color: #ababab}
+  30%{background-color: #a8a8a8}
+  31%{background-color: #a6a6a6}
+  32%{background-color: #a3a3a3}
+  33%{background-color: #a1a1a1}
+  34%{background-color: #9e9e9e}
+  35%{background-color: #9c9c9c}
+  36%{background-color: #999999}
+  37%{background-color: #969696}
+  38%{background-color: #949494}
+  39%{background-color: #919191}
+  40%{background-color: #8f8f8f}
+  41%{background-color: #8c8c8c}
+  42%{background-color: #8a8a8a}
+  43%{background-color: #878787}
+  44%{background-color: #858585}
+  45%{background-color: #838383}
+  46%{background-color: #828282}
+  47%{background-color: #7f7f7f}
+  48%{background-color: #7e7e7e}
+  49%{background-color: #7d7d7d}
+  50%{background-color: #7c7c7c}
+  51%{background-color: #7b7b7b}
+  52%{background-color: #7a7a7a}
+  53%{background-color: #757575}
+  54%{background-color: #797979}
+  55%{background-color: #737373}
+  56%{background-color: #707070}
+  57%{background-color: #6e6e6e}
+  58%{background-color: #6d6d6d}
+  59%{background-color: #6b6b6b}
+  60%{background-color: #696969}
+  61%{background-color: #686868}
+  62%{background-color: #676767}
+  63%{background-color: #666666}
+  64%{background-color: #656565}
+  65%{background-color: #646464}
+  66%{background-color: #636363}
+  67%{background-color: #626262}
+  68%{background-color: #616161}
+  69%{background-color: #606060}
+  70%{background-color: #5f5f5f}
+  71%{background-color: #5e5e5e}
+  72%{background-color: #5d5d5d}
+  73%{background-color: #5c5c5c}
+  74%{background-color: #5b5b5b}
+  75%{background-color: #5a5a5a}
+  76%{background-color: #595959}
+  77%{background-color: #575757}
+  78%{background-color: #545454}
+  79%{background-color: #535353}
+  80%{background-color: #525252}
+  81%{background-color: #505050}
+  82%{background-color: #4f4f4f}
+  83%{background-color: #4e4e4e}
+  84%{background-color: #4d4d4d}
+  85%{background-color: #4b4b4b}
+  86%{background-color: #4a4a4a}
+  87%{background-color: #474747}
+  88%{background-color: #464646}
+  89%{background-color: #454545}
+  90%{background-color: #444444}
+  91%{background-color: #434343}
+  92%{background-color: #424242}
+  93%{background-color: #414141}
+  94%{background-color: #404040}
+  95%{background-color: #3f3f3f}
+  96%{background-color: #3e3e3e}
+  97%{background-color: #3d3d3d}
+  98%{background-color: #3b3b3b}
+  99%{background-color: #383838}
+  100%{background-color: #383838}
 }
