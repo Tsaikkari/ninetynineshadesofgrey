@@ -31,27 +31,27 @@ let greys = [
     },
     {
         href: "/link/to/page7",
-        name: "Evans",
+        name: "Chopin",
         backgroundColor: "#797979"
     },
     {
         href: "/link/to/page8",
-        name: "",
+        name: "Newton",
         backgroundColor: "#737373"
     },
     {
         href: "/link/to/page9",
-        name: "",
+        name: "Mozart",
         backgroundColor: "#696969"
     },
     {
         href: "/link/to/page10",
-        name: "",
+        name: "Keller",
         backgroundColor: "#686868"
     },
     {
         href: "/link/to/page11",
-        name: "",
+        name: "Brahms",
         backgroundColor: "#656565"
     },
     {
@@ -61,7 +61,7 @@ let greys = [
     },
     {
         href: "/link/to/page13",
-        name: "Keller",
+        name: "Herschel",
         backgroundColor: "#383838"
     },
     {
@@ -76,7 +76,7 @@ let greys = [
     },
     {
         href: "/link/to/page16",
-        name: "Parks",
+        name: "Cori",
         backgroundColor: "#4f4f4f"
     },
     {
@@ -86,12 +86,12 @@ let greys = [
     },
     {
         href: "/link/to/page18",
-        name: "",
+        name: "Parks",
         backgroundColor: "#5e5e5e"
     },
     {
         href: "/link/to/page19",
-        name: "",
+        name: "Witten",
         backgroundColor: "#7c7c7c"
     },
     {
@@ -116,12 +116,12 @@ let greys = [
     },
     {
         href: "/link/to/page24",
-        name: "Comnena",
+        name: "Rubinstein",
         backgroundColor: "#d9d9d9"
     },
     {
         href: "/link/to/page25",
-        name: "",
+        name: "Newton",
         backgroundColor: "#3d3d3d"
     },
     {
@@ -146,7 +146,7 @@ let greys = [
     },
     {
         href: "/link/to/page30",
-        name: "",
+        name: "Evans",
         backgroundColor: "#606060"
     },
     {
@@ -176,7 +176,7 @@ let greys = [
     },
     {
         href: "/link/to/page36",
-        name: "",
+        name: "Beethoven",
         backgroundColor: "#e3e3e3"
     },
     {
@@ -261,7 +261,7 @@ let greys = [
     },
     {
         href: "/link/to/page53",
-        name: "",
+        name: "Bassi",
         backgroundColor: "#a1a1a1"
     },
     {
@@ -296,7 +296,7 @@ let greys = [
     },
     {
         href: "/link/to/page60",
-        name: "",
+        name: "Schumann",
         backgroundColor: "#f4f4f4"
     },
     {
@@ -321,7 +321,7 @@ let greys = [
     },
     {
         href: "/link/to/page65",
-        name: "",
+        name: "Bach",
         backgroundColor: "#a6a6a6"
     },
     {
@@ -356,7 +356,7 @@ let greys = [
     },
     {
         href: "/link/to/page72",
-        name: "Cleopatra",
+        name: "Comnena",
         backgroundColor: "#f5f5f5"
     },
     {
@@ -381,7 +381,7 @@ let greys = [
     },
     {
         href: "/link/to/page77",
-        name: "Bassi",
+        name: "",
         backgroundColor: "#5f5f5f"
     },
     {
@@ -416,7 +416,7 @@ let greys = [
     },
     {
         href: "/link/to/page84",
-        name: "",
+        name: "Prokofjew",
         backgroundColor: "#fafafa"
     },
     {
@@ -471,27 +471,27 @@ let greys = [
     },
     {
         href: "/link/to/page95",
-        name: "Cori",
+        name: "",
         backgroundColor: "#3e3e3e"
     },
     {
         href: "/link/to/page96",
-        name: "Herschel",
+        name: "Cleopatra",
         backgroundColor: "#3b3b3b"
     },
     {
         href: "/link/to/page97",
-        name: "Bach",
+        name: "",
         backgroundColor: "#7b7b7b"
     },
     {
         href: "/link/to/page98",
-        name: "Beethoven",
+        name: "",
         backgroundColor: "#7a7a7a"
     },
     {
         href: "/link/to/page99",
-        name: "Brahms",
+        name: "",
         backgroundColor: "#757575"
     }
 ];

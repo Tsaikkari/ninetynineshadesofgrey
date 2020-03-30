@@ -115,9 +115,8 @@ section {
 }
 
 .greybutton {
-	box-shadow: 3px 4px 0px 0px #899599;
+	box-shadow: 2px 5px 2px 2px #899599;
   /*background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);*/
-  background-color: var(--bg-color);
 	border-radius: 5px;
 	border: 1px solid #d6bcd6;
 	display: inline-block;
@@ -256,3 +255,4 @@ section {
   99%{background-color: #383838}
   100%{background-color: #383838}
 }
+

@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
   $('.greys-grid-screen').css('display', 'none');
+  $('.moving-smoke').css('display', 'none');
   $('h2').css('display', 'none');
   // user clicks button and the divs move
   $('#move-div').on('click', function() {
