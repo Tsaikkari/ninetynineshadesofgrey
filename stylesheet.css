@@ -4,8 +4,8 @@ body {
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    padding-top: 1rem;
-   /* color: #323232;*/
+    padding-top: 0.5rem;
+    color: #323232;
 }
 
 h3 {
@@ -115,18 +115,20 @@ section {
 }
 
 .greybutton {
-	box-shadow: 2px 5px 2px 2px #899599;
+	box-shadow: 2px 7px 2px 2px #899599;
   /*background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);*/
 	border-radius: 5px;
 	border: 1px solid #d6bcd6;
-	display: inline-block;
+  display: inline-block;
 	cursor: pointer;
 	color: #000;
-	font-size: 15px;
+  font-size: 0.75rem;
+  height: 2.5rem;
   padding: 7px 7px;
   margin-bottom: 7px;
 	text-decoration: none;
-	text-shadow:0px 1px 0px #e1e2ed;
+  text-shadow:0px 1px 0px #e1e2ed;
+  width: 4.25rem;
 }
 
 .greybutton:hover {
