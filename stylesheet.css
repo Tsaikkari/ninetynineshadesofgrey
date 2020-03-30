@@ -1,5 +1,13 @@
+html, body {width: auto!important; overflow-x: hidden!important}
+
 body {
   background-color: #cfcfcf;
+  margin: 0;
+}
+
+section {
+  text-align: center;
+  padding-top: 10px;
 }
 
 h2 {
@@ -43,11 +51,6 @@ p {
 #right {
   color: black;
   letter-spacing: 0.7rem;
-}
-
-section {
-  text-align: center;
-  padding-top: 10px;
 }
 
 .main-header {
@@ -127,7 +130,7 @@ section {
   padding: 7px 7px;
   margin-bottom: 7px;
 	text-decoration: none;
-  text-shadow:0px 1px 0px #e1e2ed;
+  text-shadow:1px 1px 1px #e1e2ed;
   width: 4.25rem;
 }
 

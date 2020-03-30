@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
   $('.greys-grid-screen').css('display', 'none');
   $('.moving-smoke').css('display', 'none');
@@ -23,9 +22,14 @@ $(document).ready(function() {
     $('#greyclip').css('display', 'block');
   }
   
-  // grey buttons TODO: Fix this
   for (let i = 0; i < greys.length; ++i) {
-    $("#grey").append(`<div class='col-sm-4 col-md-1 ml-auto mr-auto'><a href='${greys[i].href}' class='greybutton' style='background:${greys[i].backgroundColor}'>${greys[i].name}</a></div>`);
+    $("#grey").append(`<div class='col-sm-2 col-md-1 ml-auto mr-auto'><a href='${greys[i].href}' class='greybutton' style='background:${greys[i].backgroundColor}'>${greys[i].name}</a></div>`);
+    /* TODO: fix this
+    if (greys[i].backgroundColor.parseInt(backgroundColor[1], 10) < 5) {
+      $('.greybutton').css('color', '#fff');
+    } else {
+      $('.greybutton').css('color', '#000');
+    }*/
   };  
 
   return false;
