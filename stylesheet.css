@@ -116,8 +116,8 @@ section {
 
 .greybutton {
 	box-shadow: 3px 4px 0px 0px #899599;
-	/*background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);*/
-  background-color: var(--main-bg-color);
+  /*background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);*/
+  background-color: var(--bg-color);
 	border-radius: 5px;
 	border: 1px solid #d6bcd6;
 	display: inline-block;
@@ -132,11 +132,13 @@ section {
 
 .greybutton:hover {
 	background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
-	background-color: #bab1ba;
+  background-color: #bab1ba;
+  text-decoration: none;
 }
 
 .greybutton:active {
-	position: relative;
+  position: relative;
+  text-decoration: none;
 	top: 1px;
 }
 

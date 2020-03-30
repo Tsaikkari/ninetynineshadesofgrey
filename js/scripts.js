@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
   $('.greys-grid-screen').css('display', 'none');
   $('h2').css('display', 'none');
@@ -20,16 +21,17 @@ $(document).ready(function() {
     $('#move-div').css('display', 'none');
     $('#greyclip').css('display', 'block');
   }
-
+  
   // grey buttons TODO: Fix this
   for (let i = 0; i < greys.length; ++i) {
-    $("#grey").append(`<div class='col-sm-4 col-md-1 ml-auto mr-auto'><a href='${greys[i].href}' class='greybutton'>${greys[i].name}</a></div>`);
-    let greyButtons = $('#grey a');
-    $(greyButtons[i]).css("--main-bg-color", greys[i].backgroundColor);
-  }; 
+    $("#grey").append(`<div class='col-sm-4 col-md-1 ml-auto mr-auto'><a href='${greys[i].href}' class='greybutton' style='background-color:${greys[i].backgroundColor}'>${greys[i].name}</a></div>`);
+  };  
 
   return false;
 });
+
+
+
 
 
 

@@ -2,22 +2,22 @@ let greys = [
     {
         href: "link/to/page1",
         name: "Mozart",
-        backgroundColor: "fcfcfc"
+        backgroundColor: "#fcfcfc"
     },
     {
         href: "/link/to/page2",
-        name: "",
-        backgroundColor: "f7f7f7"
+        name: "Ada",
+        backgroundColor: "#f7f7f7"
     },
     {
         href: "/link/to/page3",
         name: "",
-        backgroundColor: "f0f0f0"
+        backgroundColor: "#f0f0f0"
     },
     {
         href: "/link/to/page4",
         name: "",
-        backgroundColor: "dbdbdb"
+        backgroundColor: "dbdbdb" 
     },
     {
         href: "/link/to/page5",
@@ -102,17 +102,17 @@ let greys = [
     {
         href: "/link/to/page21",
         name: "",
-        backgroundColor: "858585"
+        backgroundColor: "5d5d5d"
     },
     {
         href: "/link/to/page22",
         name: "",
-        backgroundColor: "c0c0c0"
+        backgroundColor: "858585"
     },
     {
         href: "/link/to/page23",
         name: "",
-        backgroundColor: "5d5d5d"
+        backgroundColor: "c0c0c0"
     },
     {
         href: "/link/to/page24",
@@ -421,7 +421,7 @@ let greys = [
     },
     {
         href: "/link/to/page85",
-        name: "Ada",
+        name: "",
         backgroundColor: "bdbdbd"
     },
     {
@@ -495,5 +495,7 @@ let greys = [
         backgroundColor: "757575"
     }
 ];
+
+
 
 
