@@ -1,4 +1,4 @@
-html, body {width: auto!important; overflow-x: hidden!important}
+/*html, body {width: auto!important; overflow-x: hidden!important}*/
 
 body {
   background-color: #cfcfcf;
@@ -26,72 +26,88 @@ p {
   font-size: 2.7rem;
 }
 
-.blk {
-  float: left;
-  padding-left: 13%;
-  font-size: 2.9rem;
-}
-
-.wht {
-  float: right;
-  padding-right: 7%;
-  font-size: 2.9rem;
-}
-
-.and {
-  padding-right: 29%;
-}
-
-#left {
-  color: white;
-  letter-spacing: 1.2em;
-  padding-left: 14%;
-}
-
-#right {
-  color: black;
-  letter-spacing: 0.7rem;
+#main-screen {
+  text-align: center;
 }
 
 .main-header {
   padding-top: 30px;
 }
 
-.two-divs-screen,.greys-grid-screen {
+#two-divs-screen, #greys-grid-screen, #divs-together-screen   {
   position: absolute;
   margin: auto;
-  top: 30px;
+  top: 1em;
   right: 0;
   bottom: 0px;
   left: 0;
-  width: 800px;
-  height: 400px;
+  width: 65%;
+  height: 60%;
   text-align: center;
 }
 
-.black, .white {
-  width: 370px;
-  height: 450px;
+.black, .white, .two-divs-in-one {
+  height: 100%;
+  padding-bottom: 40%;
+  padding-left: 10%;
+  width: 100%;
 }
 
+/*black box*/
 .black {
-  float: left;
   background-color: black;
+  color: white;
+  float: left;
+  letter-spacing: 1.4em;
   position: relative;
 }
 
+/*white box*/
 .white {
-  float: right;
+  color: black;
   background-color: white;
+  float: right;
+  letter-spacing: 0.7rem;
   position: relative;
 }
+ 
+/** words in the white box **/
+/*.blk {
+  font-size: 2.9rem;
+  position: absolute;
+  right: 28%;
+  top: 27%;
+}
 
-.black.moved {
+.wht {
+  font-size: 2.9rem;
+  position: absolute;
+  left: 35%;
+}
+
+.and {
+  position: absolute;
+  right: 60%;
+}*/
+
+.black.move-horizontal {
   animation: mymove_1 1s ease;
 }
 
-.white.animated {
-  animation: myanimation 1s ease;
+.white.move-horizontal {
+  animation: mymove_2 1s ease;
+}
+
+.black.move-vertical {
+  animation: mymove_3 1s ease;
+}
+
+.white.move-vertical {
+  animation: mymove_4 1s ease;
+}
+
+.two-divs-in-one.animated {
+  animation: myanimation 3s ease;
 }
 
 /*buttons*/
@@ -117,8 +133,9 @@ p {
 	top: 1px;
 }
 
+/*grey-grid buttons*/
 .greybutton {
-	box-shadow: 2px 7px 2px 2px #899599;
+	box-shadow: 1px 4px 1px 2px #899599;
   /*background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);*/
 	border-radius: 5px;
 	border: 1px solid #d6bcd6;
@@ -128,12 +145,12 @@ p {
   font-size: 0.75rem;
   height: 2.5rem;
   padding: 7px 7px;
-  margin-bottom: 7px;
 	text-decoration: none;
   text-shadow:1px 1px 1px #e1e2ed;
   width: 4.4rem;
 }
 
+/*links*/
 .name, .greybutton {
   position: relative;
   text-align: center;
@@ -152,7 +169,7 @@ p {
 	top: 1px;
 }
 
-/*black div moves to the white div*/
+/*div move*/
 @keyframes mymove_1 {
   from {
      left: 20%;
@@ -160,6 +177,36 @@ p {
  
   to {
      left: 53.7%;
+  }
+}
+
+@keyframes mymove_2 {
+  from {
+     right: 20%;
+  }
+ 
+  to {
+     right: 53.7%;
+  }
+}
+
+@keyframes mymove_3 {
+  from {
+     top: 20%;
+  }
+ 
+  to {
+     top: 53.7%;
+  }
+}
+
+@keyframes mymove_4 {
+  from {
+     bottom: 20%;
+  }
+ 
+  to {
+     bottom: 53.7%;
   }
 }
 

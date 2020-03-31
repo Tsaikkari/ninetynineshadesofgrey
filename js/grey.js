@@ -1,12 +1,12 @@
 let greys = [
     {
         href: "link/to/page1",
-        name: "Germain",
+        name: "Noether",
         backgroundColor: "#fcfcfc"
     },
     {
         href: "/link/to/page2",
-        name: "Noether",
+        name: "Mozart",
         backgroundColor: "#f7f7f7"
     },
     {
@@ -36,12 +36,12 @@ let greys = [
     },
     {
         href: "/link/to/page8",
-        name: "",
+        name: "Hamilton",
         backgroundColor: "#737373"
     },
     {
         href: "/link/to/page9",
-        name: "Mozart",
+        name: "Germain",
         backgroundColor: "#696969"
     },
     {
