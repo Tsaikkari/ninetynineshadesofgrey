@@ -131,7 +131,13 @@ p {
   margin-bottom: 7px;
 	text-decoration: none;
   text-shadow:1px 1px 1px #e1e2ed;
-  width: 4.25rem;
+  width: 4.4rem;
+}
+
+.name, .greybutton {
+  position: relative;
+  text-align: center;
+  top: 15%;
 }
 
 .greybutton:hover {

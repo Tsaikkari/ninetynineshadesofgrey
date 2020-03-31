@@ -1,8 +1,7 @@
 $(document).ready(function() {
   $('.greys-grid-screen').css('display', 'none');
-  $('.moving-smoke').css('display', 'none');
   $('h2').css('display', 'none');
-  // user clicks button and the divs move
+  // user clicks button and the div moves
   $('#move-div').on('click', function() {
     $('.black, .white').addClass('animated').addClass('moved');
     setTimeout(function() {
@@ -23,7 +22,7 @@ $(document).ready(function() {
   }
   
   for (let i = 0; i < greys.length; ++i) {
-    $("#grey").append(`<div class='col-sm-2 col-md-1 ml-auto mr-auto'><a href='${greys[i].href}' class='greybutton' style='background:${greys[i].backgroundColor}'>${greys[i].name}</a></div>`);
+    $("#grey").append(`<div class='col-sm-2 col-md-1 ml-auto mr-auto'><a href='${greys[i].href}' class='greybutton' style='background:${greys[i].backgroundColor}'><span class='name'>${greys[i].name}</span></a></div>`);
     /* TODO: fix this
     if (greys[i].backgroundColor.parseInt(backgroundColor[1], 10) < 5) {
       $('.greybutton').css('color', '#fff');

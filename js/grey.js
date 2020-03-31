@@ -36,7 +36,7 @@ let greys = [
     },
     {
         href: "/link/to/page8",
-        name: "Newton",
+        name: "",
         backgroundColor: "#737373"
     },
     {
@@ -51,7 +51,7 @@ let greys = [
     },
     {
         href: "/link/to/page11",
-        name: "Brahms",
+        name: "Nikolayeva",
         backgroundColor: "#656565"
     },
     {
@@ -176,7 +176,7 @@ let greys = [
     },
     {
         href: "/link/to/page36",
-        name: "Beethoven",
+        name: "",
         backgroundColor: "#e3e3e3"
     },
     {
@@ -321,7 +321,7 @@ let greys = [
     },
     {
         href: "/link/to/page65",
-        name: "Bach",
+        name: "",
         backgroundColor: "#a6a6a6"
     },
     {
@@ -481,17 +481,17 @@ let greys = [
     },
     {
         href: "/link/to/page97",
-        name: "",
+        name: "Bach",
         backgroundColor: "#7b7b7b"
     },
     {
         href: "/link/to/page98",
-        name: "",
+        name: "Beethoven",
         backgroundColor: "#7a7a7a"
     },
     {
         href: "/link/to/page99",
-        name: "",
+        name: "Brahms",
         backgroundColor: "#757575"
     }
 ];
