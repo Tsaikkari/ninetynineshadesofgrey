@@ -5,6 +5,7 @@ body {
   margin: 0;
 }
 
+/*first screen*/
 section {
   text-align: center;
   padding-top: 10px;
@@ -12,10 +13,11 @@ section {
 
 h2 {
     font-family: 'Roboto', sans-serif;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     color: #323232;
 }
 
+/*text on the boxes*/
 p {
   text-align: center;
   padding-top: 33%;
@@ -42,6 +44,9 @@ p {
   background-color: black;
   color: white;
   float: left;
+  letter-spacing: 2rem;
+  padding-left: 6%;
+  padding-top: 1.4%;
   position: relative;
 }
 
@@ -50,8 +55,8 @@ p {
   color: black;
   background-color: white;
   float: right;
-  position: relative;
   letter-spacing: 0.7rem;
+  position: relative;
 }
  
 /** words in the white box **/
@@ -69,12 +74,7 @@ p {
   padding-right: 29%;
 }
 
-#left {
-  color: white;
-  letter-spacing: 1.2em;
-  padding-left: 14%;
-}
-
+/*animations*/
 .black.moved {
   animation: mymove_1 1s ease;
 }
@@ -123,7 +123,7 @@ p {
   width: 4.4rem;
 }
 
-/*links*/
+/*links on the buttons*/
 .name, .greybutton {
   position: relative;
   text-align: center;
@@ -142,6 +142,7 @@ p {
 	top: 1px;
 }
 
+/*responsive*/
 @media (max-width: 780px) {
   .black.moved {
     animation: mymove_2 1s ease;
