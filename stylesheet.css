@@ -16,41 +16,25 @@ h2 {
     color: #323232;
 }
 
-h3 {
-  display: none;
-}
-
 p {
   text-align: center;
   padding-top: 33%;
   font-size: 2.7rem;
 }
 
-#main-screen {
-  text-align: center;
-}
-
 .main-header {
   padding-top: 30px;
 }
 
-#two-divs-screen, #greys-grid-screen, #divs-together-screen   {
+#two-divs-screen, .greys-grid-screen {
   position: absolute;
-  margin: auto;
-  top: 1em;
-  right: 0;
-  bottom: 0px;
-  left: 0;
-  width: 65%;
-  height: 60%;
+  padding: 3% 15%;
   text-align: center;
 }
 
-.black, .white, .two-divs-in-one {
-  height: 100%;
-  padding-bottom: 40%;
-  padding-left: 10%;
-  width: 100%;
+.black, .white {
+  width: 370px;
+  height: 450px;
 }
 
 /*black box*/
@@ -58,7 +42,6 @@ p {
   background-color: black;
   color: white;
   float: left;
-  letter-spacing: 1.4em;
   position: relative;
 }
 
@@ -67,47 +50,37 @@ p {
   color: black;
   background-color: white;
   float: right;
-  letter-spacing: 0.7rem;
   position: relative;
+  letter-spacing: 0.7rem;
 }
  
 /** words in the white box **/
-/*.blk {
+.blk {
+  padding-left: 13%;
   font-size: 2.9rem;
-  position: absolute;
-  right: 28%;
-  top: 27%;
 }
 
 .wht {
+  padding-right: 7%;
   font-size: 2.9rem;
-  position: absolute;
-  left: 35%;
 }
 
 .and {
-  position: absolute;
-  right: 60%;
-}*/
+  padding-right: 29%;
+}
 
-.black.move-horizontal {
+#left {
+  color: white;
+  letter-spacing: 1.2em;
+  padding-left: 14%;
+}
+
+.black.moved {
   animation: mymove_1 1s ease;
 }
 
-.white.move-horizontal {
-  animation: mymove_2 1s ease;
-}
-
-.black.move-vertical {
-  animation: mymove_3 1s ease;
-}
-
-.white.move-vertical {
-  animation: mymove_4 1s ease;
-}
-
-.two-divs-in-one.animated {
-  animation: myanimation 3s ease;
+.white.animated {
+  animation: myanimation 1s ease;
 }
 
 /*buttons*/
@@ -169,6 +142,27 @@ p {
 	top: 1px;
 }
 
+@media (max-width: 780px) {
+  .black.moved {
+    animation: mymove_2 1s ease;
+  }
+}
+
+@media (max-width: 1009px) {
+  p {
+    font-size: 2.3rem;
+  }
+  #left {
+    padding-top: 36%;
+  }
+}
+
+@media (max-width: 1182px) {
+  .name {
+    font-size: 0.7rem;
+  }
+}
+
 /*div move*/
 @keyframes mymove_1 {
   from {
@@ -176,37 +170,17 @@ p {
   }
  
   to {
-     left: 53.7%;
+     left: 50%;
   }
 }
 
 @keyframes mymove_2 {
   from {
-     right: 20%;
-  }
- 
-  to {
-     right: 53.7%;
-  }
-}
-
-@keyframes mymove_3 {
-  from {
      top: 20%;
   }
  
   to {
-     top: 53.7%;
-  }
-}
-
-@keyframes mymove_4 {
-  from {
-     bottom: 20%;
-  }
- 
-  to {
-     bottom: 53.7%;
+     top: 50%;
   }
 }
 
