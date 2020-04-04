@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('.greys-grid-screen').css('display', 'none');
-  $('h2').css('display', 'none');
+  $('h1').css('display', 'none');
 
   // user clicks button and the div moves
   $('#move-div').on('click', function() {
@@ -15,8 +15,8 @@ $(document).ready(function() {
 
   // greys-grid-screen
   function nextScreen() {
-    $('body').css('background-color', '#ccccff');
-    $('h2').css('display', 'block');
+    $('body').css('background-color', '#000');
+    $('h1').css('display', 'block');
     $('.greys-grid-screen').css('display', 'block');
     $('#two-divs-screen').css('display', 'none');
     //$('#divs-together-screen').css('display', 'none');

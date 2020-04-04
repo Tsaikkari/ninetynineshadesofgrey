@@ -1,0 +1,22 @@
+{
+  "name": "ninetynineshadesofgrey",
+  "version": "1.0.0",
+  "description": "ninetynineshadesofgrey express server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tsaikkari/ninetynineshadesofgrey.git"
+  },
+  "author": "Kirsi Trospe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tsaikkari/ninetynineshadesofgrey/issues"
+  },
+  "homepage": "https://github.com/Tsaikkari/ninetynineshadesofgrey#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
