@@ -5,6 +5,18 @@
     <title>ninetynineshadesofgrey</title>
   </head> 
   <body>
-    <h1> <%= persons[0] %></h1>
+    <div class="container">
+      <% for (let i = 0; i < persons.length; i++) { %>
+      <h1> <%= persons[i].name %></h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <img src=""> <%= persons[i].image %>
+        </div>
+        <div class="col-lg-6">
+          <p> <%= persons[i].description %></p>
+        </div>
+      </div>
+    <%  } %>
+    </div>
   </body>
 </html>

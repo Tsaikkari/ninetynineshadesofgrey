@@ -14,7 +14,9 @@ app.get('/', (req, res) => {
 
 /*app.get('/', (req, res) => {
     $('.greybutton').on('click', function() {
-        res.render('profile', {persons:persons[0]}, {persons:persons[1]}, {persons:persons[2]});
+        for (let i = 0; i < persons.lenght; i++) {
+            res.render('profile', {persons:persons[i].name}, {persons:persons[i].image}, {persons:persons[i].description});
+        };
     });
 });*/
 
