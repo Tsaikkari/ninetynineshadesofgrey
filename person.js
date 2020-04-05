@@ -6,25 +6,3 @@ module.exports = class Person {
     }
 } 
 
-let persons = [
-    {
-        name: "",
-        image: "",
-        description: ""
-    },
-    {
-        name: "",
-        image: "",
-        description: ""
-    },
-    {
-        name: "",
-        image: "",
-        description: ""
-    },
-    {
-        name: "",
-        image: "",
-        description: ""
-    },
-];
