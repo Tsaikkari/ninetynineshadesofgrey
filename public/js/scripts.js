@@ -15,7 +15,8 @@ $(document).ready(function() {
 
   // greys-grid-screen
   function nextScreen() {
-    $('body').css('background-color', '#000');
+    $('body').css('background-color', '#fff');
+    $('body').css('background-image', '-webkit-linear-gradient(30deg, #fff 50%, #000 50%)')
     $('h1').css('display', 'block');
     $('.greys-grid-screen').css('display', 'block');
     $('#two-divs-screen').css('display', 'none');
