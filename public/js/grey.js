@@ -1,496 +1,496 @@
 let greys = [
     {
-        href: "/profile",
+        href: "/posts/noether",
         name: "Noether",
         backgroundColor: "#fcfcfc"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Mozart",
         backgroundColor: "#f7f7f7"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Franklin",
         backgroundColor: "#f0f0f0"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Hypatia",
         backgroundColor: "#dbdbdb" 
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Goodall",
         backgroundColor: "#c2c2c2"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Cannon",
         backgroundColor: "#bababa"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Chopin",
         backgroundColor: "#797979"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Hamilton",
         backgroundColor: "#737373"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Germain",
         backgroundColor: "#696969"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Keller",
         backgroundColor: "#686868"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Nikolayeva",
         backgroundColor: "#656565"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Schweitzer",
         backgroundColor: "#616161"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Herschel",
         backgroundColor: "#383838"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Buber",
         backgroundColor: "#3f3f3f"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#444444"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Cori",
         backgroundColor: "#4f4f4f"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#7f7f7f"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Parks",
         backgroundColor: "#5e5e5e"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Witten",
         backgroundColor: "#7c7c7c"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#7e7e7e"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#858585"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#c0c0c0"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#5d5d5d"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Rubinstein",
         backgroundColor: "#d9d9d9"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Newton",
         backgroundColor: "#3d3d3d"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Ada",
         backgroundColor: "#c7c7c7"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#474747"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#525252"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Liszt",
         backgroundColor: "#8c8c8c"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Evans",
         backgroundColor: "#606060"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Woolf",
         backgroundColor: "#7d7d7d"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#838383"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#878787"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#c6c6c6"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#545454"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#e3e3e3"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#404040"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#434343"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#4a4a4a"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#535353"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#969696"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#636363"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Curie",
         backgroundColor: "#828282"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#6e6e6e"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#6d6d6d"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#d4d4d4"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#4f4f4f"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Somerville",
         backgroundColor: "#f3f3f3"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#464646"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#d6d6d6"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#d1d1d1"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#595959"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Bassi",
         backgroundColor: "#a1a1a1"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#646464"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#8c8c8c"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#919191"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#949494"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#e0e0e0"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#e8e8e8"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Schumann",
         backgroundColor: "#f4f4f4"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#4d4d4d"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#c9c9c9"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#c4c4c4"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#5a5a5a"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#a6a6a6"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#666666"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#707070"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#999999"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#9e9e9e"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#dedede"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#454545"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Comnena",
         backgroundColor: "#f5f5f5"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#4e4e4e"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#bfbfbf"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#bbbbbb"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#5c5c5c"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#5f5f5f"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#676767"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#a3a3a3"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#ababab"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#b8b8b8"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#cfcfcf"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#424242"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Prokofjew",
         backgroundColor: "#fafafa"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#bdbdbd"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#b5b5b5"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#a8a8a8"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#9c9c9c"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#8f8f8f"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#6b6b6b"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#626262"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#5b5b5b"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#4b4b4b"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#414141"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "",
         backgroundColor: "#3e3e3e"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Cleopatra",
         backgroundColor: "#3b3b3b"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Bach",
         backgroundColor: "#7b7b7b"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Beethoven",
         backgroundColor: "#7a7a7a"
     },
     {
-        href: "/profile",
+        href: "/profiles",
         name: "Brahms",
         backgroundColor: "#757575"
     }

@@ -2,8 +2,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const ejs = require('ejs');
+const _ = require('lodash');
 
 const app = express();
+
+app.set('view engine', 'ejs');
 
 //let names = ["Noether", "Mozart", "Franklin", "Hypatia", "Goodall", "Cannon", "Chopin", "Hamilton", "Germain", "Keller", "Nikolayeva", "Schweitzer", "Herschel", "Buber", "Cori", "Parks", "Witten", "Rubinstein", "Newton", "Ada", "Liszt", "Evans", "Woolf", "Curie", "Bassi", "Somerville", "Schumann", "Comnena", "Prokofjev", "Cleopatra", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Bach", "Beethoven", "Brahms"];
 
@@ -13,16 +16,14 @@ let descriptions = [];*/
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
 
-app.set('view engine', 'ejs');
-
 let posts = [];
 
 app.get('/', (req, res) => {
   res.render('index');
 }); 
 
-app.get('/profile', (req, res) => {
-  res.render('profile', {posts: posts});
+app.get('/profiles', (req, res) => {
+  res.render('profiles', {posts: posts});
 });
 
 app.get('/compose', (req, res) => {
@@ -30,13 +31,25 @@ app.get('/compose', (req, res) => {
 });
 
 app.post('/compose', (req, res) => {
-  console.log(req.body.profileTitle);
   const post = {
-    personName: req.body.profileTitle,
-    description: req.body.descriptionBody
+    title: req.body.profileTitle,
+    content: req.body.postBody
   };
   posts.push(post);
-  res.redirect('/profile');
+  res.redirect('/profiles');
+});
+
+app.get('/posts/:profileTitle', (req, res) => {
+  const requestedTitle = _.lowerCase(req.params.profileTitle);
+  posts.forEach(function (post) {
+    const storedTitle = _.lowerCase(post.title);
+    if (storedTitle === requestedTitle) {
+      res.render('profile', {
+        title: post.title,
+        content: post.content
+      });
+    }
+  });
 });
 
 app.listen(3001, () => {
