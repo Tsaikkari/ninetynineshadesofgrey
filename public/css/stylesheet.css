@@ -147,6 +147,19 @@ p {
 	top: 10px;
 }
 
+/*profile page*/
+
+
+/*compose page*/
+
+.composition {
+  padding: 30px;
+}
+
+h1.compose {
+  padding: 30px;
+}
+
 /*responsive*/
 @media (max-width: 780px) {
   .black.moved {
