@@ -22,10 +22,15 @@ $(document).ready(function() {
     $('#two-divs-screen').css('display', 'none');
     $('#move-div').css('display', 'none');
   }
-  
+
   for (let i = 0; i < greys.length; ++i) {
     $("#grey").append(`<div class='col-lg-1 col-md-2 col-sm 3 col-xs-4 ml-auto mr-auto'><a href='${greys[i].href}' class='greybutton' style='background:${greys[i].backgroundColor}'><span class='name'>${greys[i].name}</span></a></div>`);
-  };  
+  }; 
+
+  /*for (let i = 0; i < greys.length; ++i) {
+    let greyButton = document.querySelectorAll('[greybutton=]')[0];
+    greyButton.style.setProperty('background-color', greys[i].backgroundColor);
+  }; */
 
   return false;
 });
