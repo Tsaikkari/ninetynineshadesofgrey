@@ -1,25 +1,25 @@
 This is my project through which I will learn several JavaScript ecosystem stuff like Node.js, Express, EJS, and React.
 
-To use the app:
+Use the app:
 
 Install node from https://nodejs.org/en/download/
 
 Install node-modules locally: npm install
 
-To run the app start your server:
+Run the app by starting your server:
 
 node index.js
 
-To view it on your browser go to:
+View it on your browser:
 
 localhost:3000
 
-To add profiles:
+Add profiles:
 
 localhost:3000/compose
 
-To go to a profile:
+View a profile:
 
-localhost:3000/posts/<profile-name>
+localhost:3000/posts/profilename
 
 There is no database available yet. 

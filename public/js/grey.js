@@ -71,7 +71,7 @@ let greys = [
     },
     {
         href: "/profiles",
-        name: "",
+        name: "Stroustrup",
         backgroundColor: "#444444"
     },
     {
