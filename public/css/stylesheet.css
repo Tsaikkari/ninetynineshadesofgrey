@@ -160,9 +160,9 @@ p {
 
 /*profile page*/
 .description {
-  font-size: 1.5rem;
-  margin-right: 89%;
+  font-size: 1.3rem;
   padding-top: 0;
+  display: inline;
 }
 
 .person-name {
