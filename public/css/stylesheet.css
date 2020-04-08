@@ -145,16 +145,28 @@ p {
 	top: 10px;
 }
 
-/*profile/s page*/
+/*profiles page*/
 .profile-titles {
-  text-align: center;
+  padding-left: 5%;
+  padding-top: 2rem;
 }
 
 .post-content {
   font-size: 1rem;
   padding-left: 5%;
-  padding-top: 3rem;
+  padding-top: 0.7rem;
   text-align: left;
+}
+
+/*profile page*/
+.description {
+  font-size: 1.5rem;
+  margin-right: 89%;
+  padding-top: 0;
+}
+
+.person-name {
+  padding-top: 2rem;
 }
 
 /*compose page*/
