@@ -1,31 +1,31 @@
 let greys = [
     {
-        href: "/posts/Noether",
+        href: "/posts/noether",
         name: "Noether",
         backgroundColor: "#fcfcfc"
     },
     {
-        href: "/posts/Mozart",
+        href: "/posts/mozart",
         name: "Mozart",
         backgroundColor: "#f7f7f7"
     },
     {
-        href: "/posts/Franklin",
+        href: "/posts/franklin",
         name: "Franklin",
         backgroundColor: "#f0f0f0"
     },
     {
-        href: "/profiles",
+        href: "/posts/hypatia",
         name: "Hypatia",
         backgroundColor: "#dbdbdb" 
     },
     {
-        href: "/profiles",
+        href: "/posts/goodall",
         name: "Goodall",
         backgroundColor: "#c2c2c2"
     },
     {
-        href: "/profiles",
+        href: "/posts/cannon",
         name: "Cannon",
         backgroundColor: "#bababa"
     },
@@ -81,7 +81,7 @@ let greys = [
     },
     {
         href: "/profiles",
-        name: "",
+        name: "Sadat",
         backgroundColor: "#7f7f7f"
     },
     {
@@ -96,7 +96,7 @@ let greys = [
     },
     {
         href: "/profiles",
-        name: "",
+        name: "Neuhaus",
         backgroundColor: "#7e7e7e"
     },
     {
@@ -485,7 +485,7 @@ let greys = [
         backgroundColor: "#7b7b7b"
     },
     {
-        href: "/profiles",
+        href: "/posts/Beethoven",
         name: "Beethoven",
         backgroundColor: "#7a7a7a"
     },

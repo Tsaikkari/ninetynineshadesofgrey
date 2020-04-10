@@ -3,20 +3,25 @@ body {
   margin: 0;
 }
 
-/*first screen*/
+/*invisible things*/
+.greys-invisible, .header-invisible, .boxes-invisible {
+  display: none;
+}
+
 section {
   text-align: center;
   padding-top: 10px;
 }
 
 h1 {
-    /*font-family: 'Roboto', sans-serif;*/
-    color: #3f3f3f;
+  color: #7f7f7f;
+  font-family: 'Roboto', sans-serif;
+    /*color: #3f3f3f;*/
     /*#4e2161;*/
     /*font-family: 'Roboto Condensed', sans-serif;*/
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    padding-top: 1rem;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-weight: bold;
+  padding-top: 1rem;
 }
 
 /*text on the boxes*/
@@ -108,6 +113,7 @@ p {
 	top: 1px;
 }
 
+/* second page */
 /*grey-grid buttons*/
 .greybutton {
 	box-shadow: 1px 4px 1px 2px #899599;
@@ -143,6 +149,12 @@ p {
   position: relative;
   text-decoration: none;
 	top: 10px;
+}
+
+.bg-color { background-color: #fff; }
+
+.two-color-bg { 
+  background-image: -webkit-linear-gradient(30deg, #fff 50%, #000 50%);
 }
 
 /*profiles page*/
