@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
 
-mongoose.connect('mongodb://localhost:27017/ninetynineshadesofgrey', {useNewUrlParser: true, useUnifiedTypology: true});
+mongoose.connect('mongodb://localhost:27017/ninetynineshadesofgrey', {useNewUrlParser: true, useUnifiedTopology: true});
 
 const personSchema = {
   name: String,
@@ -36,16 +36,17 @@ app.get('/compose', (req, res) => {
 });
 
 app.post('/compose', (req, res) => {
-  const post = {
+  const post = new Person({
     title: req.body.profileTitle,
-    content: req.body.postBody,
-  };
-  posts.push(post);
+    content: req.body.postBody
+  });
+  post.save();
   res.redirect('/profiles');
 });
 
 app.get('/posts/:profileTitle', (req, res) => {
   const requestedTitle = _.lowerCase(req.params.profileTitle);
+
   posts.forEach(function (post) {
     const storedTitle = _.lowerCase(post.title);
     if (storedTitle === requestedTitle) {
