@@ -21,3 +21,5 @@ localhost:3000
 localhost:3000/compose
 
 ### Save profiles into your mongoDB by clicking on the "Publish" button.
+
+### Update the links on the buttons in the grey.js file. 
