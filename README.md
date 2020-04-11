@@ -1,21 +1,23 @@
 This is my project through which I will learn several JavaScript ecosystem stuff like Node.js, Express, EJS, and React.
 
-Use the app:
+# Use the app:
 
-Install node from https://nodejs.org/en/download/
+#### Install node from https://nodejs.org/en/download/
 
-Install node-modules locally: npm install
+####  Install node-modules locally: npm install
 
-Run the app by starting your server:
+#### Run the app by starting your server:
 
 node index.js
 
-View it on your browser:
+#### View it in your browser:
 
 localhost:3000
 
-Add profiles:
+#### Install mongoDB from https://docs.mongodb.com/manual/installation/ and start it.
+
+#### Add profiles:
 
 localhost:3000/compose
 
-Save profiles into your MongoDB.
+#### Save profiles into your mongoDB by clicking on the "Publish" button.
