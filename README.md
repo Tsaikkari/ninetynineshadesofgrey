@@ -18,8 +18,4 @@ Add profiles:
 
 localhost:3000/compose
 
-View a profile:
-
-localhost:3000/posts/profilename
-
-There is no database available yet. 
+Save profiles into your MongoDB.
