@@ -12,14 +12,14 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
 
-/*mongoose.connect('mongodb://localhost:27017/ninetynineshadesofgrey', {useNewUrlParser: true, useUnifiedTypology: true});
+mongoose.connect('mongodb://localhost:27017/ninetynineshadesofgrey', {useNewUrlParser: true, useUnifiedTypology: true});
 
-const personsSchema = {
+const personSchema = {
   name: String,
   description: String
 };
 
-const Person = mongoose.model('Person', personsSchema);*/
+const Person = mongoose.model('Person', personSchema);
 
 let posts = [];
 
