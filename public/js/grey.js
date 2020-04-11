@@ -1,11 +1,11 @@
 let greys = [
     {
-        href: "/posts/noether",
+        href: "/posts/5e91ef5c2a788670b3c2004b",
         name: "Noether",
         backgroundColor: "#fcfcfc",
     },
     {
-        href: "/posts/mozart",
+        href: "/posts/5e91efecf7230e7195e08a8f",
         name: "Mozart",
         backgroundColor: "#f7f7f7"
     },
