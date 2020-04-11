@@ -3,6 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const ejs = require('ejs');
 const _ = require('lodash');
+const mongoose = require('mongoose');
 
 const app = express();
 
@@ -10,6 +11,15 @@ app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
+
+/*mongoose.connect('mongodb://localhost:27017/ninetynineshadesofgrey', {useNewUrlParser: true, useUnifiedTypology: true});
+
+const personsSchema = {
+  name: String,
+  description: String
+};
+
+const Person = mongoose.model('Person', personsSchema);*/
 
 let posts = [];
 
@@ -28,7 +38,7 @@ app.get('/compose', (req, res) => {
 app.post('/compose', (req, res) => {
   const post = {
     title: req.body.profileTitle,
-    content: req.body.postBody
+    content: req.body.postBody,
   };
   posts.push(post);
   res.redirect('/profiles');
@@ -41,7 +51,7 @@ app.get('/posts/:profileTitle', (req, res) => {
     if (storedTitle === requestedTitle) {
       res.render('profile', {
         title: post.title,
-        content: post.content
+        content: post.content,
       });
     }
   });
