@@ -12,23 +12,23 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
 
-/*mongoose.connect('mongodb://localhost:27017/ninetynineshadesofgrey', {useNewUrlParser: true, useUnifiedTypology: true});
+mongoose.connect('mongodb://localhost:27017/ninetynineshadesofgrey', {useNewUrlParser: true, useUnifiedTopology: true});
 
-const personsSchema = {
-  name: String,
-  description: String
+const postSchema = {
+  title: String,
+  content: String
 };
 
-const Person = mongoose.model('Person', personsSchema);*/
-
-let posts = [];
+const Post = mongoose.model('Post', postSchema);
 
 app.get('/', (req, res) => {
   res.render('index');
 }); 
 
 app.get('/profiles', (req, res) => {
-  res.render('profiles', {posts: posts});
+  Post.find({}, function(err, posts){
+    res.render('profiles', {posts: posts});
+  });
 });
 
 app.get('/compose', (req, res) => {
@@ -36,24 +36,25 @@ app.get('/compose', (req, res) => {
 });
 
 app.post('/compose', (req, res) => {
-  const post = {
+  const post = new Post({
     title: req.body.profileTitle,
-    content: req.body.postBody,
-  };
-  posts.push(post);
-  res.redirect('/profiles');
+    content: req.body.postBody
+  });
+  post.save(function(err) {
+    if (!err) {
+      res.redirect('/profiles');
+    }
+  });
 });
 
-app.get('/posts/:profileTitle', (req, res) => {
-  const requestedTitle = _.lowerCase(req.params.profileTitle);
-  posts.forEach(function (post) {
-    const storedTitle = _.lowerCase(post.title);
-    if (storedTitle === requestedTitle) {
-      res.render('profile', {
-        title: post.title,
-        content: post.content,
-      });
-    }
+app.get('/posts/:postId', (req, res) => {
+  const requestedPostId = req.params.postId;
+
+  Post.findOne({_id: requestedPostId}, function(err, post) {
+    res.render('profile', {
+      title: post.title,
+      content: post.content
+    });
   });
 });
 
