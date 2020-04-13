@@ -43,6 +43,8 @@ app.post('/compose', (req, res) => {
   post.save(function(err) {
     if (!err) {
       res.redirect('/profiles');
+    } else {
+      res.send(err);
     }
   });
 });
