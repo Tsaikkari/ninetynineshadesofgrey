@@ -1,7 +1,28 @@
-<%- include("header") -%>
-<% posts.forEach(function(post){ %>
-   <h1 class="profile-title"> <%= post.title %> </h1>
-   <p class="post-content"> <%= post.content.substring(0, 100) + " ..." %> 
-      <a class="link" href="/posts/<%= post._id %>">Read More</a>
-   </p>
-<% }) %>
+<%- include("head") -%>
+<div class="container">
+	<h1>People</h1>
+  <div class="row">
+		<% posts.forEach(function(post){ %>
+			<div class="col-lg-3 col-md-6 col-mb-4 card-wrapper">
+				<div class='card h-100'>
+				<div class="card-body">
+				<h4 class="card-title"><%= post.title %></h4>
+					<p class="card-text"><%= post.content.substring(0, 100) + " ..." %>
+						<a class="link" href="/posts/<%= post._id %>">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<% }) %>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+

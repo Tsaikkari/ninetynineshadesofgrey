@@ -1,13 +1,13 @@
-<%- include("header") -%>
-<div class="container-fluid" id="profile-screen" style="background: #fff">
-  <div class="row">
-    <div class="col-md-6 image-container">
-      <img class=img-fluid src="/images/<%= title.toLowerCase(); %>.jpg">
-    </div> 
-    <div class="col-md-6 text-container">
-      <h1 class="person-name"> <%= title %> </h1>
-      <p class="description"> <%= content %> </p>
-    </div>
+<%- include("head") -%>
+<%- include("navbar") -%>
+<div class="profiles">
+  <div class="profile-row">
+    <img class=img-fluid src="/images/<%= title.toLowerCase(); %>.jpg">
+    <h1 class="person-name"> <%= title %> </h1>
+    <p class="description"> <%= content %> </p>
   </div>
 </div>
+<%- include("footer") -%>
+
+
 

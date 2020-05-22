@@ -1,11 +1,15 @@
 body {
-  background-color: #cfcfcf;
+  background-color: #dfdfdf;
   margin: 0;
 }
 
 /*invisible things*/
 .greys-invisible, .header-invisible, .boxes-invisible {
   display: none;
+}
+
+.bg-color-start {
+  background-color: #dfdfdf;
 }
 
 section {
@@ -15,12 +19,12 @@ section {
 
 h1 {
   color: #7f7f7f;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   padding-top: 1rem;
 }
 
-/*text on the boxes*/
+/*text on the boxes in the first screen*/
 p {
   text-align: center;
   padding-top: 33%;
@@ -146,34 +150,79 @@ p {
 	top: 10px;
 }
 
-.bg-color { background-color: #fff; }
+/*.bg-color { background-color: #fff; }
 
 .two-color-bg { 
   background-image: -webkit-linear-gradient(30deg, #fff 50%, #000 50%);
+}*/
+
+/*navbar */
+.navbar {
+  background-color: #fff;
+  height: 80px;
 }
 
 /*profiles page*/
-.profile-titles {
-  padding-left: 5%;
-  padding-top: 2rem;
+.container h1 {
+  color: #f40552;
+  margin-bottom: 12px;
+}
+.card-body {
+  background-color: #f8f3eb;
 }
 
-.post-content {
+.card-title {
+  color: #fc7e2f;
+  text-align: center;
+}
+
+.card-text {
+  color: #3f3f44;
   font-size: 1rem;
-  padding-left: 5%;
-  padding-top: 0.7rem;
-  text-align: left;
+  padding-top: 1rem;
+}
+
+.link {
+  color: grey;
+}
+
+.card-wrapper {
+  padding-bottom: 10px;
 }
 
 /*profile page*/
-.description {
-  font-size: 1.3rem;
-  padding-top: 0;
-  display: inline;
+.profiles {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+}
+
+.profile-row {
+  margin: 0 auto;
+  text-align: left;
+  width: 80%;
 }
 
 .person-name {
-  padding-top: 2rem;
+  color: #383838;
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 0;
+}
+
+.img-fluid {
+  border-radius: 50%;
+  float: left;
+  margin-right: 4rem;
+  width: 28%;
+}
+
+.description {
+  background-color: #fff;
+  color: #40514e;
+  float: left;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  padding-top: 0;
 }
 
 /*compose page*/
@@ -182,9 +231,23 @@ p {
 }
 
 h1.compose {
+  color: #17a2b8;
+  font-family: 'Montserrat', sans-serif;
   padding-top: 20px;
   padding-left: 30px;
 }
+
+/* Footer */
+footer {
+  background-color: #fff;
+  height: 350px;
+  padding-top: 10rem;
+}
+
+.buttons {
+  background-color: #fff;
+}
+
 
 /*responsive*/
 @media (max-width: 780px) {
