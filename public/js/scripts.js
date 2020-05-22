@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $('.greys-grid-screen').addClass('greys-invisible');
+  $('body').css('background-color', '#dfdfdf');
   $('h1').addClass('header-invisible');
 
   // user clicks button and the div moves
@@ -11,6 +12,7 @@ $(document).ready(function() {
     setTimeout(function() {
       nextScreen();
     }, 1000);
+    $('body').css('background-color', '#fff');
   })
 
   // greys-grid-screen

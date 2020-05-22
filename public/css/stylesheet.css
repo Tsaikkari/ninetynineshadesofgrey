@@ -1,5 +1,5 @@
 body {
-  background-color: #dfdfdf;
+  background-color: #fff;
   margin: 0;
 }
 
@@ -18,9 +18,10 @@ section {
 }
 
 h1 {
-  color: #7f7f7f;
-  font-family: 'Montserrat', sans-serif;
+  color: #fc7e2f;
+  font-family: 'Handlee', cursive;
   font-weight: bold;
+  letter-spacing: 0.2rem;
   padding-top: 1rem;
 }
 
@@ -117,11 +118,12 @@ p {
 /*grey-grid buttons*/
 .greybutton {
 	box-shadow: 1px 4px 1px 2px #899599;
-	border-radius: 5px;
+	border-radius: 50%;
 	border: 1px solid #d6bcd6;
   display: inline-block;
 	cursor: pointer;
-	color: #000;
+  color: #f40552;
+  font-family: 'Handlee', cursive;
   font-size: 0.75rem;
   height: 2.5rem;
   padding: 7px 7px;
