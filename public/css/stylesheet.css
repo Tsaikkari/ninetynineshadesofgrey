@@ -76,7 +76,6 @@ section {
   background-color: black;
   color: white;
   letter-spacing: 1.5rem;
-  padding-left: 6%;
   padding-top: 1.4%;
   position: relative;
 }
@@ -85,7 +84,6 @@ section {
 .white {
   background: white;
   letter-spacing: 1.5rem;
-  padding-left: 6%;
   padding-top: 1.4%;
   position: relative;
 }
@@ -249,7 +247,6 @@ h1.compose {
   from {
      left: 20%;
   }
- 
   to {
      left: 50%;
   }
@@ -260,7 +257,6 @@ h1.compose {
   from {
      top: 20%;
   }
- 
   to {
      top: 50%;
   }
