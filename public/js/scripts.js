@@ -2,7 +2,7 @@ $(document).ready(function() {
   $('.greys-grid-screen').addClass('greys-invisible');
   $('body').css('background-color', '#dfdfdf');
   $('h1').addClass('header-invisible');
-
+  
   // user clicks button and the div moves
   $('#move-div').on('click', function() {
     $('.black, .white').addClass('animated').addClass('moved');
@@ -26,35 +26,43 @@ $(document).ready(function() {
 
   greys.forEach(function(grey) { 
     $("#grey").append(`
-      <div class='col-lg-1 col-md-2 col-sm 3 col-xs-4 ml-auto mr-auto'>
+      <div class='col-lg-1 col-md-2 col-sm 3 col-xs-4 ml-auto mr-auto greys-container'>
         <a href='${grey.href}' class='greybutton' style='background:${grey.backgroundColor}'>
           <span class='name'>${grey.name}</span>
         </a>
       </div>
     `);
 
-    let bg = grey.backgroundColor;
-    switch (bg) {
-      case bg[1] === "3" || bg[1] === "4" || bg[1] === "5":
-        $('.greybutton a', this).css('color', '#fff');
-        break;
-      case bg[1] === "6" || bg[1] === "7":
-        $('.greybutton a').css('color', '#dfdfdf');
-        break;
-      case bg[1] === "8" || bg[1] === "9" || bg[1] == "a" || bg[1] == "b":
-        $('#grey a').css('color', '#333');
-        break;
-      case bg[1] === "c" || bg[1] === "d" || bg[1] === "e" || bg[1] === "f":
-        $('.greybutton a').css('color', '#000');
-        break;
-      default:
-    }  
-    if (bg[1] === "f") {
-      console.log($('#grey a', this));
-    };
-  }); 
+    let bg = grey.backgroundColor[1];
+
+    if (bg === "3" || bg === "4" || bg === "5") {
+      $('.greybutton a').css('color', 'red');
+    } else if (bg === "6" || bg === "7") {
+      $('.greybutton a').css('color', 'pink');
+    } else if (bg === "8" || bg === "9" || bg == "a" || bg == "b") {
+      $('#grey a').css('color', '#7e0cf5');
+    }  else if (bg === "c" || bg === "d" || bg === "e" || bg === "f") {
+      $('.greybutton a').css('color', 'yellow');
+    } else {
+      console.log('peculiar')
+    }
+  });
+  /*let bigButtonPeople = (greys.slice(96));
+  let greyElement = $('.greys-container a');
+  bigButtonPeople.map(function(bigButtonPerson) {
+    bigButtonPerson.name = bigButtonPerson.name.toLowerCase();
+    if (bigButtonPerson.name === 'brahms' || bigButtonPerson.name === 'beethoven' || bigButtonPerson.name === 'bach') {
+      greyElement.addClass(bigButtonPerson.name + '-button');
+      $('.brahms-button').css({'width': '17.6rem', 'margin': '0 auto'});
+      $('.beethoven-button').css({'width': '17.6rem', 'margin': '0 auto'});
+      $('.bach-button').css('width', '17.6rem');
+    } else {
+      greyElement.removeClass(bigButtonPerson.name + '-button');
+    }
+  });*/
   return false;
 });
+
 
 
 

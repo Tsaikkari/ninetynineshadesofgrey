@@ -96,7 +96,7 @@ section {
 }
 
 h1 {
-  color: #f40552;
+  color: pink;
   font-family: 'Rajdhani', sans-serif;
   font-weight: bold;
   letter-spacing: 0.25rem;
@@ -106,7 +106,7 @@ h1 {
 /*grey-grid buttons*/
 .greybutton {
 	box-shadow: 1px 4px 1px 2px #899599;
-	border-radius: 50%;
+	border-radius: 1%;
 	border: 1px solid #d6bcd6;
   display: inline-block;
 	cursor: pointer;
@@ -122,6 +122,7 @@ h1 {
 
 /*links on the buttons*/
 .name, .greybutton {
+  font-weight: 800;
   position: relative;
   text-align: center;
   top: 15%;
@@ -138,6 +139,22 @@ h1 {
   position: relative;
   text-decoration: none;
 	top: 10px;
+}
+
+.bach, .beethoven, .brahms {
+  width: 200%;
+}
+
+.big-button-people {
+  position: relative;
+  display: flex;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.three-b {
+  margin-left: 0;
+  width: 102.5%;
 }
 
 /*profiles page*/
@@ -171,8 +188,8 @@ h1 {
 
 /*profile page*/
 .profile {
-  margin-top:-15%;
-  padding: 10%;
+  margin-top: -10%;
+  padding: 7%;
 }
 
 .profile-title {

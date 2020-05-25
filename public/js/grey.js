@@ -342,7 +342,7 @@ let greys = [
     {
         href: "/profiles",
         name: "",
-        backgroundColor: "#9e9e9e"
+        backgroundColor: "#8c8c8c"
     },
     {
         href: "/profiles",
@@ -402,7 +402,7 @@ let greys = [
     {
         href: "/profiles",
         name: "",
-        backgroundColor: "#b8b8b8"
+        backgroundColor: "#9e9e9e"
     },
     {
         href: "/profiles",
@@ -422,7 +422,7 @@ let greys = [
     {
         href: "/profiles",
         name: "",
-        backgroundColor: "#bdbdbd"
+        backgroundColor: "#b8b8b8"
     },
     {
         href: "/profiles",
@@ -478,8 +478,11 @@ let greys = [
         href: "/profiles",
         name: "Cleopatra",
         backgroundColor: "#3b3b3b"
-    },
-    {
+    }
+];
+
+/*
+{
         href: "/profiles",
         name: "Bach",
         backgroundColor: "#7b7b7b"
@@ -487,15 +490,11 @@ let greys = [
     {
         href: "/posts/Beethoven",
         name: "Beethoven",
-        backgroundColor: "#8c8c8c"
+        backgroundColor: "#bdbdbd"
     },
     {
         href: "/profiles",
         name: "Brahms",
         backgroundColor: "#838383"
-    }
-];
-
-
-
+    }*/
 
