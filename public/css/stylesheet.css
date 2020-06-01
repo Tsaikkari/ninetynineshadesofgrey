@@ -1,3 +1,4 @@
+ 
 html, body {
   background-color: #fff;
   margin: 0;
@@ -90,48 +91,44 @@ section {
 
 /* second page */
 .greys-grid-screen {
-  position: absolute;
-  padding: 3% 15%;
+  padding: 0% 5%;
   text-align: center;
+  width: 100%;
 }
 
-h1 {
-  color: pink;
+.greys-grid-header {
+  color: #937d14;
   font-family: 'Rajdhani', sans-serif;
   font-weight: bold;
   letter-spacing: 0.25rem;
-  padding-top: 1rem;
 }
 
 /*grey-grid buttons*/
 .greybutton {
-	box-shadow: 1px 4px 1px 2px #899599;
-	border-radius: 1%;
-	border: 1px solid #d6bcd6;
+	box-shadow: 1px 1px 1px 2px #442727;
+	border-radius: 4px;
+	border: 4px solid  #eae7d9;
   display: inline-block;
 	cursor: pointer;
-  color: #f8f3eb;
+  color: #937d14;
   font-family: 'Rajdhani', sans-serif;
   font-size: 0.75rem;
-  height: 2.5rem;
-  padding: 7px 7px;
+  padding: 10px;
+  height: 3rem;
+  width: 5.4rem;
 	text-decoration: none;
   text-shadow:1px 1px 1px #e1e2ed;
-  width: 4.4rem;
 }
 
 /*links on the buttons*/
 .name, .greybutton {
   font-weight: 800;
-  position: relative;
-  text-align: center;
-  top: 15%;
 }
 
 .greybutton:hover {
-	background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
-  background-color: #bab1ba;
-  color: #19cbd0;
+	/*background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color: #bab1ba;*/
+  color: #442727;
   text-decoration: none;
 }
 
@@ -154,7 +151,7 @@ h1 {
 
 .three-b {
   margin-left: 0;
-  width: 102.5%;
+  width: 101.5%;
 }
 
 /*profiles page*/
@@ -196,6 +193,7 @@ h1 {
   color: #ffa500;
   font-family: 'Libre Baskerville', serif;
   font-weight: bold;
+  padding: 17px 0 14px 0;
 }
 
 .profile-text {
@@ -212,7 +210,7 @@ h1 {
 }
 
 .profile-img img {
-  width: 40%;
+  width: 80%;
 }
 
 /*compose page*/
@@ -245,17 +243,23 @@ h1.compose {
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
   .box-text {
     font-size: 1rem !important;
     padding-top: 60%;
   }
+  .three-b {
+    width: 100%;
+  }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .box-text {
   padding-top: 29%;
   font-size: 2.5rem !important;
+  }
+  .three-b {
+    width: 101.5%;
   }
 }
 
@@ -382,4 +386,3 @@ h1.compose {
   99%{background-color: #383838}
   100%{background-color: #383838}
 }
-

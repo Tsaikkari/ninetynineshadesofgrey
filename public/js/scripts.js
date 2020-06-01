@@ -3,6 +3,7 @@ $(document).ready(function() {
   $('body').css('background-color', '#dfdfdf');
   $('h1').addClass('header-invisible');
   
+  
   // user clicks button and the div moves
   $('#move-div').on('click', function() {
     $('.black, .white').addClass('animated').addClass('moved');
@@ -24,7 +25,17 @@ $(document).ready(function() {
     $('#move-div').css('display', 'none');
   }
 
-  greys.forEach(function(grey) { 
+  for (let i = 0; i < greys.length; ++i) {
+    $("#grey").append(`
+      <div class='col-lg-1 col-md-2 col-sm 3 col-xs-4 ml-auto mr-auto' greybuttons>
+        <a href='${greys[i].href}' class='greybutton' style='background:${greys[i].backgroundColor}'>
+          <span class='name'>${greys[i].name}</span>
+        </a>
+      </div>
+    `);
+  }; 
+
+  /*greys.forEach(function(grey) { 
     $("#grey").append(`
       <div class='col-lg-1 col-md-2 col-sm 3 col-xs-4 ml-auto mr-auto greys-container'>
         <a href='${grey.href}' class='greybutton' style='background:${grey.backgroundColor}'>
@@ -32,6 +43,7 @@ $(document).ready(function() {
         </a>
       </div>
     `);
+    
 
     let bg = grey.backgroundColor[1];
 
