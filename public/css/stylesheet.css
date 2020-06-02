@@ -105,19 +105,19 @@ section {
 
 /*grey-grid buttons*/
 .greybutton {
-	box-shadow: 1px 1px 1px 2px #442727;
+  box-shadow: 1px 1px 1px 2px #442727;
+  border: 4px solid  #eae7d9;
 	border-radius: 4px;
-	border: 4px solid  #eae7d9;
-  display: inline-block;
-	cursor: pointer;
   color: #937d14;
+  cursor: pointer;
+  display: inline-block;
   font-family: 'Rajdhani', sans-serif;
   font-size: 0.75rem;
   padding: 10px;
   height: 3rem;
-  width: 5.4rem;
-	text-decoration: none;
+  text-decoration: none;
   text-shadow:1px 1px 1px #e1e2ed;
+  width: 5.4rem;
 }
 
 /*links on the buttons*/
@@ -129,6 +129,16 @@ section {
 	/*background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
   background-color: #bab1ba;*/
   color: #442727;
+  text-decoration: none;
+}
+
+.people-link {
+  color: grey;
+  padding-top: 20px;
+}
+
+.people-link:hover {
+  color: #f40552;
   text-decoration: none;
 }
 
@@ -210,7 +220,8 @@ section {
 }
 
 .profile-img img {
-  width: 75%;
+  padding-bottom: 1rem;
+  width: 73%;
 }
 
 /*compose page*/

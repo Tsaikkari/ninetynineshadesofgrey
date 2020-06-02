@@ -1,4 +1,6 @@
-This is my project through which I will learn several JavaScript ecosystem stuff like Node.js, Express, EJS, and React.
+This is my project through which I will learn several JavaScript ecosystem stuff like Node.js, Express, EJS.
+
+View the app: https://ninetynineshadesofgrey.herokuapp.com/
 
 # Use the app:
 

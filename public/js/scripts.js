@@ -44,21 +44,6 @@ $(document).ready(function() {
       </div>
     `);
     
-
-    let bg = grey.backgroundColor[1];
-
-    if (bg === "3" || bg === "4" || bg === "5") {
-      $('.greybutton a').css('color', 'red');
-    } else if (bg === "6" || bg === "7") {
-      $('.greybutton a').css('color', 'pink');
-    } else if (bg === "8" || bg === "9" || bg == "a" || bg == "b") {
-      $('#grey a').css('color', '#7e0cf5');
-    }  else if (bg === "c" || bg === "d" || bg === "e" || bg === "f") {
-      $('.greybutton a').css('color', 'yellow');
-    } else {
-      console.log('peculiar')
-    }
-  });
   /*let bigButtonPeople = (greys.slice(96));
   let greyElement = $('.greys-container a');
   bigButtonPeople.map(function(bigButtonPerson) {
