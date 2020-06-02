@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('public'));
 
-mongoose.connect('mongodb://localhost:27017/ninetynineshadesofgrey', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://admin-kirsi:meikalaisenBeissi@cluster0-glmpd.mongodb.net/ninetynineshadesofgrey", {useNewUrlParser: true, useUnifiedTopology: true});
 
 const postSchema = {
   title: String,
@@ -60,8 +60,13 @@ app.get('/posts/:postId', (req, res) => {
   });
 });
 
-app.listen(3000, () => {
-    console.log('Server listening');
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
+
+app.listen(port, () => {
+    console.log('Server has started on port 3000');
 });
 
 
