@@ -167,7 +167,8 @@ section {
 /*profiles page*/
 .container h1 {
   color: #f40552;
-  margin-bottom: 12px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px 0;
 }
 
 .card-body {
@@ -176,7 +177,7 @@ section {
 
 .card-title {
   color: #fc7e2f;
-  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .card-text {
