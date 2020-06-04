@@ -250,8 +250,15 @@ h1.compose {
     width: 300px;
     margin: auto !important;
   }
+  .black, .white {
+    height: 200px;
+    width: 300px;
+  }
   .black.moved {
     animation: mymove_2 1s ease;
+  }
+  .box-text {
+    font-size: 1.5rem;
   }
 }
 
